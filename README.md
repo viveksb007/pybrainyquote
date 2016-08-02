@@ -13,7 +13,7 @@ Install using pip:
 from brainyquote import pybrainyquote
 
 print(pybrainyquote.get_quotes('inspirational'))
-print(pybrainyquote.get_quotes('motivational'), 3)  # returns list with 3 quotes
+print(pybrainyquote.get_quotes('motivational', 3))  # returns list with 3 quotes
 print(pybrainyquote.get_random_quote())  # returns random quotes on popular_choice
 
 ```
