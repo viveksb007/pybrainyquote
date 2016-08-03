@@ -36,7 +36,6 @@ Change **[popular_choice](https://github.com/viveksb007/pybrainyquote/blob/maste
 * return any random quote from popular topics
 
 # License
-===============
 >(c) 2016 Vivek Singh Bhadauria 
 
 >This is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
