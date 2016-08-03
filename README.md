@@ -5,6 +5,16 @@ Python Package to get quotes from [`BrainyQuote`](http://www.brainyquote.com/)
 Install using pip:
 
     pip install brainyquote
+    
+## Dependencies :
+
+     beautifulsoup4
+     requests
+
+## Install Dependencies :
+
+    pip install beautifulsoup4
+    pip install requests
 
 ## Usage
 
