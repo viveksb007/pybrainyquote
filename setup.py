@@ -11,4 +11,8 @@ setup(
     download_url ='https://github.com/viveksb007/pybrainyquote/tarball/0.1',
     keywords = ['quotes', 'pyquotes', 'brainyquote'],
     classifiers = [],
+    install_requires=[
+        "beautifulsoup4",
+		"requests"
+    ]
     )
