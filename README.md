@@ -18,22 +18,44 @@ Install using pip:
 
 ## Usage
 
+### Get quotes from topic
+
 ```python
 
 from brainyquote import pybrainyquote
 
-print(pybrainyquote.get_quotes('inspirational'))
-print(pybrainyquote.get_quotes('motivational', 3))  # returns list with 3 quotes
-print(pybrainyquote.get_random_quote())  # returns random quotes on popular_choice
-
+print(pybrainyquote.get_quotes('inspirational')) # returns one quote from the 'inspirational' topic
+print(pybrainyquote.get_quotes('motivational', 3))  # returns list with 3 quotes from the 'motivational' topic
 ```
-All parameters are supported which are suggested in [`Topics`](http://www.brainyquote.com/quotes/topics.html)
+
+All parameters suggested in [`Topics`](http://www.brainyquote.com/quotes/topics.html) are supported.
+
+### Get a single quote
+```python
+from brainyquote import pybrainyquote
+
+print(pybrainyquote.get_random_quote())  # returns random quotes on popular_choice
+```
+
 
 Change **[popular_choice](https://github.com/viveksb007/pybrainyquote/blob/master/brainyquote/pybrainyquote.py)** for more random quotes
 
+## Quote
+
+All quotes returned follow the same format. First they contain the quote itself in single quotes, which is followed by the author.
+
+### Example
+```python
+from brainyquote import pybrainyquote
+
+quote = pybrainyquote.get_random_quote() 
+# may return: "'Choosing to be positive and having a grateful attitude is going to determine how you're going to live your life.' Joel Osteen"
+```
+
+
 ## Features
 * returns number of quotes in list specified as ``` get_quotes( 'topic', number_of_quotes ) ```
-* return any random quote from popular topics
+* return any random quote from popular topics as ``` get_random_quote() ```
 
 # License
 >(c) 2016 Vivek Singh Bhadauria 
